@@ -11,7 +11,7 @@ description: >-
 
 Before starting, you need:
 
-* [x] DECO Plan: Growth/Unlimited
+* [x] DECO Plan: Growth/Unlimited&#x20;
 * [x] Product metafields created in your Shopify admin
 * [x] Metafield values assigned to your products
 
