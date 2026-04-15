@@ -2,7 +2,7 @@
 description: >-
   DECO Discounts are promotional price reductions applied to products helping
   highlight deals, increase visibility, and drive conversions for your store
-cover: ../../.gitbook/assets/LÀM LỢI.png
+cover: ../../.gitbook/assets/Ảnh docs.png
 coverY: 0
 layout:
   width: default
