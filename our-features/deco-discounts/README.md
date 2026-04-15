@@ -30,27 +30,4 @@ We'll walk through two **features:**&#x20;
 
 <figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-### 1. Automatic Discount&#x20;
-
-First, in the Automatic Discount settings, you can:&#x20;
-
-* Set the campaign name, this won't be seen by your customers
-* Set your campaign start time/end time&#x20;
-* Change the product that you want to preview
-
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
-
-After setting up your campaign name, you can choose which type of discount that you want to apply. You have the following options:&#x20;
-
-* Percentage (%)&#x20;
-* Fixed Amount ($)&#x20;
-* New price ($)&#x20;
-
-After setting up the type of discount that you want, the discounted amount will automatically show in the preview here:&#x20;
-
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
-
-Finally, you can choose the products that you want your discount to have effect on.&#x20;
-
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
-
+###
