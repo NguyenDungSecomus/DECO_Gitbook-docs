@@ -17,13 +17,13 @@ Before starting, you need:
 
 Currently, we support Choice List and Single line text:&#x20;
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 Next, let's assign these metafields to your Products:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## ✨Step-by-step Setup
 
@@ -31,27 +31,27 @@ Next, let's assign these metafields to your Products:&#x20;
 
 * Open DECO app >> Navigate to: Labels & Badges then:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:blue;">🔹</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Step 2: Choose the metafield**</mark>&#x20;
 
 After clicking on Add metafields, now you can choose the metafield:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 <mark style="color:blue;">🔹</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**Step 3: Select Options**</mark>&#x20;
 
 After clicking on Add metafields, now you can choose one of these options:&#x20;
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 * The "Exists" condition specifies that our badges will be displayed as long as the specific metafield is present on the product, regardless of its specific value.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 * The "Include" condition specifies that our badges will be displayed only when the product contains the specific metafield value defined in your settings.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 * The "Match all of" condition specifies that our badges will only display when the product contains every one of the defined values
 
