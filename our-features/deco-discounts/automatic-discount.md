@@ -41,7 +41,7 @@ This will ensure that the badge will only appear on the products that have been 
 
 The **Combinations settings** allow you to use DECO discounts alongside Shopify discounts at the same time, giving you more flexibility to run multiple promotions together:&#x20;
 
-* Product Discounts: Allows you to apply multiple discounts from both Shopify and the DECO app to your products simultaneously, giving you greater flexibility in running promotions&#x20;
+* Product Discounts: Allows usage of multiple discounts from both Shopify and DECO to products for more flexible promotions&#x20;
 * Order Discount: Allows you to display discounts for all orders that meet the eligible purchase amount criteria&#x20;
 * Shipping discounts: Allows shipping discounts to be applied on top of existing product discounts, enabling more attractive combined promotions.
 
