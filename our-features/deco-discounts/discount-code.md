@@ -26,7 +26,7 @@ After setting up the type of discount that you want, you can also set the code f
 
 The discounted amount will automatically show in the preview also.&#x20;
 
-Finally, you can select which products the discount applies to and optionally create badges to showcase your discount codes:&#x20;
+Finally, you can select which products the discount applies to and create badges to showcase your discount codes (optional):&#x20;
 
 <figure><img src="../../.gitbook/assets/image (697).png" alt=""><figcaption></figcaption></figure>
 

@@ -31,9 +31,11 @@ Finally, you can choose the products that you want your discount to have effect 
 
 <figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-Finally, you can click on Create Badge and it will automatically redirect you to our menu here:&#x20;
+Finally, you can click on Create Badge and it will redirect you to our Display menu here: \
+\
+Also, the Created Badge can automatically show your discounts!&#x20;
 
-<figure><img src="../../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (698).png" alt=""><figcaption></figcaption></figure>
 
 This will ensure that the badge will only appear on the products that have been selected for the discount.&#x20;
 
