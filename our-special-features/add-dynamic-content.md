@@ -1,8 +1,8 @@
 ---
 description: >-
   Select an automatic text option to display dynamic details of each product.
-  Specifically, it'll automatically calculate % discount, Remaining stock, Day
-  release, etc of each products.
+  Specifically, it'll automatically calculate % discount, Remaining stock, etc
+  of each products.
 cover: ../.gitbook/assets/Screenshot_1 (6).png
 coverY: 0
 layout:
@@ -29,12 +29,6 @@ layout:
 ---
 
 # 💡 Add Dynamic Content
-
-## GUIDELINE VIDEO
-
-{% hint style="info" %}
-This function is only available for **TEXT LABEL/BADGE**
-{% endhint %}
 
 ## DETAILED DOCS
 
