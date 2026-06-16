@@ -4,6 +4,24 @@ description: >-
   you don't find those code files, it means all DECO codes no longer to exist in
   your store)
 icon: trash-can
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # How to remove old code left from the big update?

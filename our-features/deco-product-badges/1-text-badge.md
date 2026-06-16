@@ -1,3 +1,24 @@
+---
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
+---
+
 # 1️⃣ TEXT BADGE
 
 #### Steps to create a **DECO text badge ✔️**
@@ -42,7 +63,7 @@ Then, depending on your choice above, you'll see different positioning options:
 * In this step, you can type anything you want in the badge content, change the text font, or add translations for the content.
 * Or if you want a dynamic content, select "_**AutoText**_" and select a suitable content.
 
-<figure><img src="../../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (699).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Please take a look at important notes about "AutoText" [here](../../our-special-features/add-dynamic-content.md)\

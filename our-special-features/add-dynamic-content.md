@@ -5,6 +5,27 @@ description: >-
   release, etc of each products.
 cover: ../.gitbook/assets/Screenshot_1 (6).png
 coverY: 0
+layout:
+  width: default
+  cover:
+    visible: true
+    size: hero
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 💡 Add Dynamic Content
@@ -15,27 +36,19 @@ coverY: 0
 This function is only available for **TEXT LABEL/BADGE**
 {% endhint %}
 
-{% embed url="https://www.youtube.com/watch?v=qOxhsr4z750" %}
-
 ## DETAILED DOCS
 
+* First, on your app dashboard, click on "Label & Badge" > "Create Badge" > "Text badge"
 
+<figure><img src="../.gitbook/assets/image (701).png" alt=""><figcaption></figcaption></figure>
 
-* First, on your app dashboard, click on "Create label":
+* After that, click on "Auto Text" button, then choose 1 of your preferred&#x20;
 
-<figure><img src="../.gitbook/assets/image (298).png" alt=""><figcaption></figcaption></figure>
-
-* Then, you will see this screen, please choose "Text label":
-
-<figure><img src="../.gitbook/assets/image (299).png" alt=""><figcaption></figcaption></figure>
-
-* After that, click on "Add discount" button, then choose 1 of your preffered&#x20;
-
-<figure><img src="../.gitbook/assets/image (300).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (702).png" alt=""><figcaption></figcaption></figure>
 
 <details>
 
-<summary>This feature will base on your available settings in your Shopify Admin to automatically calculate and display dynamic values of your products</summary>
+<summary>To make setup easier and help you configure the correct conditions, we categorize AutoText into <strong>four main types.</strong> Please refer to the corresponding section for each type to understand how it works and when to use it.</summary>
 
 
 
@@ -43,11 +56,28 @@ This function is only available for **TEXT LABEL/BADGE**
 
 {% hint style="info" %}
 5 types of variables:&#x20;
+
+* **Compare-at price**
+* **DECO Discount**
+* **Shopify Discount**
+* **Others**
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (463).png" alt=""><figcaption></figcaption></figure>
+#### 1. Compare-at Price&#x20;
 
-<table><thead><tr><th width="136">Types</th><th align="center">Code </th><th>Usage</th><th>Example</th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Discount %</strong></td><td align="center">SAVE {SAVE_PERCENT}%</td><td>It will use this formula<strong>: </strong><mark style="background-color:green;"><strong>[(Compare-at price - price)/ compare-at price]*100</strong></mark> in your Shopify admin to automatically display the sale percentage</td><td><ul><li>Price: $399</li><li>Compare-at price: $499</li></ul><p>-> Formula: <mark style="background-color:orange;"><strong>[(499-399)/499]*100</strong></mark> </p><p>-> The sale percentage displayed on label: SAVE 20%</p></td><td></td></tr><tr><td><strong>Discount amount</strong></td><td align="center">SAVE {SAVE_AMOUNT} NOW</td><td>It will use this formula:  <mark style="background-color:green;"><strong>(Compare-at price - Price)</strong></mark> in Shopify admin to automatically display the sale amount</td><td><ul><li>Price: $350</li><li>Compare-at price: $560</li></ul><p>-> Result: SAVE 210 NOW</p></td><td></td></tr><tr><td><strong>Price</strong></td><td align="center">ONLY {PRICE}$</td><td>It will <mark style="background-color:green;"><strong>base on the Price of your products</strong></mark> to display on your label</td><td><ul><li>Price: $350</li></ul><p>-> Result: ONLY 350$</p></td><td></td></tr><tr><td><strong>Day release</strong></td><td align="center">NEW IN {NEW_FOR}</td><td>It will <mark style="background-color:green;"><strong>base on the publish date of your products</strong></mark> to automatically calculate how many days left to display on your label</td><td><ul><li>The created date: July 1, 2024</li><li>The current date: July 10, 2024<br><br>-> Result: NEW IN 10<br></li></ul></td><td></td></tr><tr><td><strong>Remaining stock</strong></td><td align="center">ONLY {STOCK} LEFT</td><td>It will <mark style="background-color:green;"><strong>base on the total of available stock in Inventory</strong></mark> to automatically display on your label</td><td><ul><li>Available: 19 </li></ul><p>-> Result: ONLY 19 LEFT</p></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="161">Type</th><th width="406">Condition</th><th width="245">Example</th></tr></thead><tbody><tr><td>{SAVE_PERCENT}</td><td>Shows the percentage off of the product if the product has a Compare-at price set via Shopify Admin → Products → Price.</td><td>Save 20%</td></tr><tr><td>{SAVE_AMOUNT}</td><td>Shows the amount off of the product if the product has a Compare-at price set via Shopify Admin → Products → Price.</td><td>Save $30</td></tr></tbody></table>
+
+#### 2. DECO discount
+
+<table><thead><tr><th width="285">Type</th><th width="288">Condition</th><th width="245">Example</th></tr></thead><tbody><tr><td>{DISCOUNT_VALUE_PERCENT}</td><td>Shows the percentage off of the product if the product has an active discount set via DECO's discount program.</td><td>Save 20%</td></tr><tr><td>{DISCOUNT_VALUE_AMOUNT}</td><td>Shows the fixed amount off of the product if the product has an active discount set via DECO's discount program.</td><td>Example: Save $30</td></tr><tr><td>{DISCOUNT_CODE}</td><td>Shows the discount code of the product if the product has an active discount code set via DECO's discount program.</td><td>KOL_20%</td></tr><tr><td>{NEW_PRICE}</td><td>Shows the new price of the product if the product has an active discount set via DECO's discount program.</td><td>NOW $99</td></tr></tbody></table>
+
+#### 3. Shopify Discount
+
+<table><thead><tr><th width="285">Type</th><th width="288">Condition</th><th width="245">Example</th></tr></thead><tbody><tr><td>{DISCOUNT_VALUE_PERCENT}</td><td>Shows the percentage off of the product if the product has an active discount set via Shopify Admin → Discounts.</td><td>Save 20%</td></tr><tr><td>{DISCOUNT_VALUE_AMOUNT}</td><td>Shows the fixed amount off of the product if the product has an active discount set via Shopify Admin → Discounts.</td><td>Save $30</td></tr><tr><td>{DISCOUNT_CODE}</td><td>Shows the discount code of the product if the product has an active discount code set via Shopify Admin → Discounts.</td><td>KOL_20%</td></tr></tbody></table>
+
+#### 4. Others
+
+<table><thead><tr><th width="285">Type</th><th width="288">Condition</th><th width="245">Example</th></tr></thead><tbody><tr><td>{STOCK}</td><td>Shows the current stock quantity of the product.</td><td>ONLY 5 LEFT</td></tr><tr><td>{PRICE}</td><td>Shows the current selling price of the product.</td><td>Only $99</td></tr><tr><td>{DAYS_SINCE_RELEASE}</td><td>Shows the number of days since the product was published in your Shopify store.</td><td>NEW IN 3 DAYS</td></tr><tr><td>{PRODUCT_METAFIELD}</td><td>Shows a custom metafield value of the product if the product has a metafield set via Shopify Admin → Products → Metafields.</td><td>100% Cotton</td></tr><tr><td>{NUMBER_OF_REVIEW}</td><td>Shows the total number of reviews of the product from your review app (Judge.me, Loox, Trustoo, Junip, LAI Reviews, Air Reviews,...).</td><td>45 reviews</td></tr><tr><td>{AVERAGE_RATING}</td><td>Shows the average star rating of the product from your review app (Judge.me, Loox, Trustoo, Junip, LAI Reviews, Air Reviews,...).</td><td>5 stars</td></tr></tbody></table>
 
 **NOTE:**&#x20;
 
@@ -56,3 +86,4 @@ This function is only available for **TEXT LABEL/BADGE**
 2\. All content in the text box should be written in 1 line, please don't press "enter" on your keyboard
 
 3\. This mark " is a special character, instead of using it, please use this mark '
+

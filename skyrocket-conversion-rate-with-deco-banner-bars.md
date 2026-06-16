@@ -2,6 +2,24 @@
 description: >-
   Boosting Sales and Engagement with DECO’s Banner Bars: Real Results from Real
   Merchants
+layout:
+  width: default
+  title:
+    visible: true
+  description:
+    visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
+  tags:
+    visible: true
+  actions:
+    visible: true
 ---
 
 # 🪁 Skyrocket Conversion Rate with DECO Banner Bars! ✨
